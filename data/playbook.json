@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T18:11:05+00:00",
+  "generated_at": "2026-04-25T18:40:48+00:00",
   "corpus_summary": {
     "videos": 2095,
     "included_videos": 1005,
@@ -9717,6 +9717,31 @@
           "lesson": "Value first; do not invent fear without evidence."
         }
       ],
+      "decision_points": [
+        {
+          "street": "River",
+          "prompt": "Loose blind checks after calling flop and turn. What is your first default?",
+          "pot": "Pot is $145 and effective stacks are $270.",
+          "default_action": "Bet for value, then fold if a passive player raises big.",
+          "options": [
+            {
+              "action": "Check back",
+              "quality": "trap",
+              "feedback": "Checking is too fearful against a player type that pays too wide with worse queens and sticky pairs."
+            },
+            {
+              "action": "Bet $75-$95",
+              "quality": "best",
+              "feedback": "Best default: choose a size worse hands can call and keep the plan disciplined if raised."
+            },
+            {
+              "action": "Overbet all-in",
+              "quality": "thin",
+              "feedback": "This may chase away the exact worse hands you are targeting unless you have a specific calling-station read."
+            }
+          ]
+        }
+      ],
       "lesson": "Low-stakes profit starts by identifying who will pay with worse hands."
     },
     {
@@ -9744,6 +9769,31 @@
           "street": "Plan",
           "action": "Proceed mostly in position against dominated broadways and suited trash.",
           "lesson": "The raise is a value-and-position tool, not automatic aggression."
+        }
+      ],
+      "decision_points": [
+        {
+          "street": "Preflop",
+          "prompt": "Two loose players limp and the blinds are passive. What is the cleanest plan with KQs in the cutoff?",
+          "pot": "$1/$3 with roughly $400 effective stacks.",
+          "default_action": "Raise larger for value and position.",
+          "options": [
+            {
+              "action": "Limp behind",
+              "quality": "trap",
+              "feedback": "This lets the blinds in cheaply and gives up the main edge: position plus a hand ahead of limp-calling ranges."
+            },
+            {
+              "action": "Raise to $20-$24",
+              "quality": "best",
+              "feedback": "Best default: isolate wide callers with a size that charges the field and builds a heads-up pot."
+            },
+            {
+              "action": "Fold",
+              "quality": "thin",
+              "feedback": "Too tight. KQs performs well in position against loose limpers when you control the pot geometry."
+            }
+          ]
         }
       ],
       "lesson": "Isolate when your hand is ahead of limp-calling ranges and position lets you realize the edge."
@@ -9779,6 +9829,31 @@
           "lesson": "Initiative is useful because future decisions are named in advance."
         }
       ],
+      "decision_points": [
+        {
+          "street": "Flop",
+          "prompt": "Small blind checks on K-7-2 rainbow. What makes the c-bet good or bad?",
+          "pot": "Heads-up single-raised pot, hero has JTs with backdoor equity.",
+          "default_action": "Bet only if you already know which turns continue.",
+          "options": [
+            {
+              "action": "Bet and decide later",
+              "quality": "trap",
+              "feedback": "That is the leak: initiative becomes spew when the next street is not planned."
+            },
+            {
+              "action": "Bet with turn plan",
+              "quality": "best",
+              "feedback": "Best default: use range advantage now and continue only on cards that improve equity or story."
+            },
+            {
+              "action": "Always check back",
+              "quality": "thin",
+              "feedback": "Checking can be fine, but 'always' gives up profitable pressure on boards that heavily favor the opener."
+            }
+          ]
+        }
+      ],
       "lesson": "Position plus initiative earns money when the next street is planned before chips go in."
     },
     {
@@ -9811,6 +9886,31 @@
           "street": "Turn",
           "action": "Villain check-raises.",
           "lesson": "Passive raises remove many weak calls and weight range toward value."
+        }
+      ],
+      "decision_points": [
+        {
+          "street": "Turn",
+          "prompt": "A passive big blind check-raises after calling flop. What changes?",
+          "pot": "Hero has top pair/top kicker on K-9-5-7.",
+          "default_action": "Respect the range shift and continue only with a clear reason.",
+          "options": [
+            {
+              "action": "Auto-stack off",
+              "quality": "trap",
+              "feedback": "Top pair is not a license to ignore a passive player's sudden strength."
+            },
+            {
+              "action": "Slow down or fold",
+              "quality": "best",
+              "feedback": "Best default: the pool underbluffs this raise, so top pair shrinks in value."
+            },
+            {
+              "action": "Min-click back",
+              "quality": "trap",
+              "feedback": "This bloats the pot against the part of the range that already announced strength."
+            }
+          ]
         }
       ],
       "lesson": "Start with the population prior, then narrow the range when the line becomes honest."
@@ -9848,6 +9948,31 @@
           "lesson": "A standard size is less important than the calling range."
         }
       ],
+      "decision_points": [
+        {
+          "street": "River",
+          "prompt": "Villain checks after calling twice. Which question chooses your bet size?",
+          "pot": "You hold QJ on Q-8-5-2-3.",
+          "default_action": "Name the worse hands that can call, then size for them.",
+          "options": [
+            {
+              "action": "Ask what calls",
+              "quality": "best",
+              "feedback": "Best default: build the bet around the customer list, not a memorized fraction."
+            },
+            {
+              "action": "Always bet pot",
+              "quality": "thin",
+              "feedback": "Pot can be great against stations, but it is not automatic if it folds out the worse hands."
+            },
+            {
+              "action": "Check because kicker is medium",
+              "quality": "trap",
+              "feedback": "This misses salary against worse queens, eights, and stubborn pairs."
+            }
+          ]
+        }
+      ],
       "lesson": "Pick the biggest size that worse hands realistically call."
     },
     {
@@ -9881,6 +10006,31 @@
           "street": "If raised",
           "action": "Hero folds to a passive raise.",
           "lesson": "Calling too wide and raising too honestly can both be true."
+        }
+      ],
+      "decision_points": [
+        {
+          "street": "River",
+          "prompt": "Loose opponent checks to you. What is the best exploit with AT on T-7-3-2-6?",
+          "pot": "Single-raised pot, opponent overcalls one-pair hands but rarely check-raises bluff.",
+          "default_action": "Bet thin for value with a bet-fold plan.",
+          "options": [
+            {
+              "action": "Bet-fold",
+              "quality": "best",
+              "feedback": "Best default: worse hands call, but a raise is still strong enough to release."
+            },
+            {
+              "action": "Check back",
+              "quality": "trap",
+              "feedback": "Checking protects against monsters but gives up the recurring thin-value edge."
+            },
+            {
+              "action": "Bet-call any raise",
+              "quality": "trap",
+              "feedback": "This confuses two separate pool leaks: calling too much does not mean raising light."
+            }
+          ]
         }
       ],
       "lesson": "Thin value and disciplined folding are compatible exploits."
@@ -9918,6 +10068,31 @@
           "lesson": "If the list is imaginary, fold."
         }
       ],
+      "decision_points": [
+        {
+          "street": "River",
+          "prompt": "Villain bets large when the front-door flush completes. What earns the call?",
+          "pot": "You have top pair on K-9-4-2-A with three clubs.",
+          "default_action": "Call only when you can name enough real bluffs.",
+          "options": [
+            {
+              "action": "Call because pot odds",
+              "quality": "trap",
+              "feedback": "Pot odds are not enough if the pool does not arrive with enough bluffs."
+            },
+            {
+              "action": "Fold by default",
+              "quality": "best",
+              "feedback": "Best default: this line is value-heavy until a specific opponent proves otherwise."
+            },
+            {
+              "action": "Raise bluff",
+              "quality": "thin",
+              "feedback": "A bluff-raise needs evidence that villain can fold strong value, which is not the default live read."
+            }
+          ]
+        }
+      ],
       "lesson": "A call is earned by real bluff frequency, not by wanting to see it."
     },
     {
@@ -9951,6 +10126,31 @@
           "street": "Bluff check",
           "action": "Hero blocks some ace-high continues and tells a credible story.",
           "lesson": "Blockers confirm; they do not create the bluff alone."
+        }
+      ],
+      "decision_points": [
+        {
+          "street": "River",
+          "prompt": "Villain check-calls twice and checks a queen river. When is the bluff allowed?",
+          "pot": "You missed A5 suited on K-9-4-2-Q.",
+          "default_action": "Bluff when the range is capped and better hands can fold.",
+          "options": [
+            {
+              "action": "Give up always",
+              "quality": "thin",
+              "feedback": "Some pools overfold capped one-pair ranges, so automatic surrender leaves money."
+            },
+            {
+              "action": "Bluff credible size",
+              "quality": "best",
+              "feedback": "Best default when villain can fold: your line pressures capped pairs and the river card improves your story."
+            },
+            {
+              "action": "Bluff any caller",
+              "quality": "trap",
+              "feedback": "The bluff dies if the opponent's main leak is curiosity-calling."
+            }
+          ]
         }
       ],
       "lesson": "Bluff where better hands can actually fold."
@@ -9988,6 +10188,31 @@
           "lesson": "Emotion becomes a signal, not an instruction."
         }
       ],
+      "decision_points": [
+        {
+          "street": "Before river decision",
+          "prompt": "Opponent showed a bluff earlier and now bets again. What is the first move?",
+          "pot": "You feel the urge to prove you cannot be pushed around.",
+          "default_action": "Pause and separate evidence from ego repair.",
+          "options": [
+            {
+              "action": "Snap call",
+              "quality": "trap",
+              "feedback": "Fast calls often protect ego instead of EV."
+            },
+            {
+              "action": "Name the motive",
+              "quality": "best",
+              "feedback": "Best default: identify whether your reason is evidence, price, range, or image repair."
+            },
+            {
+              "action": "Auto-fold from fear",
+              "quality": "thin",
+              "feedback": "Discipline is not fear; still check the actual range and price."
+            }
+          ]
+        }
+      ],
       "lesson": "A pause before expensive nodes protects technical judgment."
     },
     {
@@ -10021,6 +10246,31 @@
           "street": "Drill",
           "action": "Bucket the hand as missed thin value.",
           "lesson": "Fix frequent, recognizable leaks first."
+        }
+      ],
+      "decision_points": [
+        {
+          "street": "After session",
+          "prompt": "You checked back a river and later think it was a missed value bet. What should the review capture?",
+          "pot": "The goal is to create a trigger for next session, not prove the result was unlucky.",
+          "default_action": "Record decision inputs and bucket the leak.",
+          "options": [
+            {
+              "action": "Write only outcome",
+              "quality": "trap",
+              "feedback": "Outcome-only notes do not teach the next decision."
+            },
+            {
+              "action": "Record inputs",
+              "quality": "best",
+              "feedback": "Best default: position, stack depth, action, sizing, player type, and your reason."
+            },
+            {
+              "action": "Ignore small pots",
+              "quality": "thin",
+              "feedback": "Repeated small missed values are often the actual win-rate leak."
+            }
+          ]
         }
       ],
       "lesson": "The review loop turns a hand into a table trigger for next session."
