@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Discipline Reset Loop</title>
+  <desc id="desc">Slow the hand down before emotion writes the action.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8F4EC"/>
+      <stop offset="100%" stop-color="#EFE3D2"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#5C4634" flood-opacity="0.16"/>
+    </filter>
+    <style>
+      .title { font: 700 44px Georgia, serif; fill: #172033; }
+      .subtitle { font: 400 21px Avenir, Helvetica, Arial, sans-serif; fill: #5F6C7B; }
+      .eyebrow { font: 800 15px Avenir, Helvetica, Arial, sans-serif; letter-spacing: 2px; fill: #79351D; }
+      .label { font: 700 24px Avenir, Helvetica, Arial, sans-serif; fill: #172033; }
+      .small { font: 500 17px Avenir, Helvetica, Arial, sans-serif; fill: #5F6C7B; }
+    </style>
+  </defs>
+  <rect width="1200" height="720" rx="34" fill="url(#bg)"/>
+  <circle cx="1045" cy="110" r="135" fill="#E8F2F5" opacity="0.9"/>
+  <circle cx="110" cy="650" r="170" fill="#F0D7B0" opacity="0.46"/>
+  <text x="70" y="82" class="eyebrow">LIVE CASH POKER PLAYBOOK</text>
+  <text x="70" y="138" class="title">Discipline Reset Loop</text>
+  <text x="72" y="178" class="subtitle">Slow the hand down before emotion writes the action.</text>
+  <g filter="url(#shadow)">
+    <rect x="80" y="300" width="150" height="145" rx="24" fill="#FFFFFF" stroke="#D8CFC2"/>
+    <circle cx="116" cy="334" r="18" fill="#B4532A"/>
+    <text x="116" y="341" text-anchor="middle" font-family="Avenir, Helvetica, Arial" font-size="17" font-weight="800" fill="#FFFFFF">1</text>
+    <text x="155" y="386" text-anchor="middle" class="label">Pause</text>
+    <text x="155" y="416" text-anchor="middle" class="small">make the next street easier</text>
+  </g>
+  <path d="M 238 372 C 270 372, 270 372, 298 372" fill="none" stroke="#1F5E7A" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 293 360 L 309 372 L 293 384 Z" fill="#1F5E7A"/>
+  <g filter="url(#shadow)">
+    <rect x="305" y="300" width="150" height="145" rx="24" fill="#FFFFFF" stroke="#D8CFC2"/>
+    <circle cx="341" cy="334" r="18" fill="#B4532A"/>
+    <text x="341" y="341" text-anchor="middle" font-family="Avenir, Helvetica, Arial" font-size="17" font-weight="800" fill="#FFFFFF">2</text>
+    <text x="380" y="386" text-anchor="middle" class="label">Name leak</text>
+    <text x="380" y="416" text-anchor="middle" class="small">make the next street easier</text>
+  </g>
+  <path d="M 463 372 C 495 372, 495 372, 523 372" fill="none" stroke="#1F5E7A" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 518 360 L 534 372 L 518 384 Z" fill="#1F5E7A"/>
+  <g filter="url(#shadow)">
+    <rect x="530" y="300" width="150" height="145" rx="24" fill="#FFFFFF" stroke="#D8CFC2"/>
+    <circle cx="566" cy="334" r="18" fill="#B4532A"/>
+    <text x="566" y="341" text-anchor="middle" font-family="Avenir, Helvetica, Arial" font-size="17" font-weight="800" fill="#FFFFFF">3</text>
+    <text x="605" y="386" text-anchor="middle" class="label">Check price</text>
+    <text x="605" y="416" text-anchor="middle" class="small">compare odds to range</text>
+  </g>
+  <path d="M 688 372 C 720 372, 720 372, 748 372" fill="none" stroke="#1F5E7A" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 743 360 L 759 372 L 743 384 Z" fill="#1F5E7A"/>
+  <g filter="url(#shadow)">
+    <rect x="755" y="300" width="150" height="145" rx="24" fill="#FFFFFF" stroke="#D8CFC2"/>
+    <circle cx="791" cy="334" r="18" fill="#B4532A"/>
+    <text x="791" y="341" text-anchor="middle" font-family="Avenir, Helvetica, Arial" font-size="17" font-weight="800" fill="#FFFFFF">4</text>
+    <text x="830" y="386" text-anchor="middle" class="label">Choose default</text>
+    <text x="830" y="416" text-anchor="middle" class="small">choose the boring edge</text>
+  </g>
+  <path d="M 913 372 C 945 372, 945 372, 973 372" fill="none" stroke="#1F5E7A" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 968 360 L 984 372 L 968 384 Z" fill="#1F5E7A"/>
+  <g filter="url(#shadow)">
+    <rect x="980" y="300" width="150" height="145" rx="24" fill="#FFFFFF" stroke="#D8CFC2"/>
+    <circle cx="1016" cy="334" r="18" fill="#B4532A"/>
+    <text x="1016" y="341" text-anchor="middle" font-family="Avenir, Helvetica, Arial" font-size="17" font-weight="800" fill="#FFFFFF">5</text>
+    <text x="1055" y="386" text-anchor="middle" class="label">Log hand</text>
+    <text x="1055" y="416" text-anchor="middle" class="small">make the next street easier</text>
+  </g>
+  <text x="600" y="570" text-anchor="middle" class="small">Use the loop before the pot gets emotionally loud.</text>
+</svg>
