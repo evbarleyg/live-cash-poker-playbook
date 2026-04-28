@@ -9688,6 +9688,7 @@
       "is_exact_hand": false,
       "hero_position": "Button",
       "villain_position": "Big blind",
+      "villain_range_note": "Blind defend is wide and sticky; weight river continues toward one-pair hands that overcall until a passive raise narrows value.",
       "hero_hand": [
         "A♠",
         "Q♠"
@@ -9753,6 +9754,7 @@
       "is_exact_hand": false,
       "hero_position": "Cutoff",
       "villain_position": "Two limpers",
+      "villain_range_note": "Limp-calling ranges are wide, capped, and dominated; punish with size and position rather than exact combo precision.",
       "hero_hand": [
         "K♠",
         "Q♠"
@@ -9807,6 +9809,7 @@
       "is_exact_hand": false,
       "hero_position": "Button",
       "villain_position": "Small blind",
+      "villain_range_note": "Small blind flats are condensed and capped; weak pairs and floats defend the flop but struggle on planned turns.",
       "hero_hand": [
         "J♠",
         "T♠"
@@ -9865,6 +9868,7 @@
       "is_exact_hand": false,
       "hero_position": "Hijack",
       "villain_position": "Big blind",
+      "villain_range_note": "Big blind check-call stays wide until the passive raise heavily discounts weak pairs and floats.",
       "hero_hand": [
         "A♦",
         "K♣"
@@ -9924,6 +9928,7 @@
       "is_exact_hand": false,
       "hero_position": "Button",
       "villain_position": "Big blind",
+      "villain_range_note": "After two check-calls, expect pairs, queens, and stubborn bluff-catchers; size against worse hands that still pay.",
       "hero_hand": [
         "Q♣",
         "J♣"
@@ -9984,6 +9989,7 @@
       "is_exact_hand": false,
       "hero_position": "Cutoff",
       "villain_position": "Button caller",
+      "villain_range_note": "Button caller can hold many one-pair bluff-catchers, but a river raise is still value-heavy at low stakes.",
       "hero_hand": [
         "A♥",
         "T♥"
@@ -10044,6 +10050,7 @@
       "is_exact_hand": false,
       "hero_position": "Big blind",
       "villain_position": "Button",
+      "villain_range_note": "Button river aggression after passive streets is value-heavy by default; demand named bluffs before paying.",
       "hero_hand": [
         "K♠",
         "Q♦"
@@ -10104,6 +10111,7 @@
       "is_exact_hand": false,
       "hero_position": "Button",
       "villain_position": "Big blind",
+      "villain_range_note": "Big blind check-calling range is capped after two streets; apply pressure only if this player can release one pair.",
       "hero_hand": [
         "A♠",
         "5♠"
@@ -10164,6 +10172,7 @@
       "is_exact_hand": false,
       "hero_position": "Any seat",
       "villain_position": "Aggressive opponent",
+      "villain_range_note": "Treat prior aggression as a history note, not proof; range work starts after the ego reset.",
       "hero_hand": [
         "9♣",
         "9♦"
@@ -10224,6 +10233,7 @@
       "is_exact_hand": false,
       "hero_position": "Session review",
       "villain_position": "Recorded opponent type",
+      "villain_range_note": "Use the logged player type to bucket future ranges; this is a review workflow, not a live preflop seat range.",
       "hero_hand": [
         "A♣",
         "J♣"
