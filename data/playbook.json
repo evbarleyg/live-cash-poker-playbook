@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T18:40:48+00:00",
+  "generated_at": "2026-06-12T05:26:44+00:00",
   "corpus_summary": {
     "videos": 2095,
     "included_videos": 1005,
@@ -9676,6 +9676,11 @@
       "term": "bet-fold",
       "definition": "Betting for value with the plan to fold if raised.",
       "beginner_note": "This works when the pool calls too wide but raises too honestly."
+    },
+    {
+      "term": "passive",
+      "definition": "A style that prefers calling and checking over betting and raising.",
+      "beginner_note": "When a passive player suddenly raises, especially on the river, it is almost always a strong hand."
     }
   ],
   "visual_scenarios": [
